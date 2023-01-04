@@ -10,7 +10,7 @@ server:
       - gotify.onrender.com
       - gotify.dotts.net
 database:
-  dialect: mysql # the connection info is set using the GOTIFY_DATABASE_CONNECTION environment variable.
+  dialect: postgresql # the connection info is set using the GOTIFY_DATABASE_CONNECTION environment variable.
 defaultuser: # on database creation, gotify creates an admin user (these values will only be used for the first start, if you want to edit the user after the first start use the WebUI)
   name: admin # the username of the default user
   pass: admin # the password of the default user
